@@ -1,0 +1,57 @@
+.wpma-offline-alert-sticky, .wpma-show-log {
+  background-color: #d9534f;
+  color: white;
+  text-align: center;
+}
+.wpma-show-log {
+  text-align: left;
+  font-size: 12px;
+}
+.wpma-show-log p {
+  margin: 0;
+}
+.wpma-show-log .log {
+  background-color: #171717;
+}
+.wpma-show-log .warn {
+  background-color: #e66e07;
+}
+.wpma-show-log .error {
+  background-color: #d9534f;
+}
+.wpma-create-cache, .wpma-remove-cache, .wpma-push-notification, .wpma-share-link {
+  cursor: pointer;
+}
+.wpma-template-element {
+  display: none;
+}
+
+.wpma-question-loading {
+  text-align: center;
+  position: absolute;
+  z-index: -1;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.wpma-drag-loading {
+
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #778899;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin .6s linear infinite;
+  margin: 10px 45%;
+  position: absolute;
+  z-index: -1;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

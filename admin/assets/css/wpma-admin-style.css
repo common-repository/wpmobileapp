@@ -1,0 +1,92 @@
+.wpma-media-upload img {
+	cursor: pointer;
+}
+h2 {
+	font-size: x-large;
+	margin: 0;
+}
+.notitle th {
+	display: none;
+	padding: 0;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+	position: relative;
+	opacity: unset;
+	pointer-events: all;
+	bottom: 7px;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid #0073AA;
+	-webkit-box-shadow: 0 1px 0 0 #0073AA;
+	box-shadow: 0 1px 0 0 #0073AA;
+}
+a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+tr {
+	border-bottom: 0;
+}
+.tabs {
+	border-radius: 5px 5px 0px 0px;
+	background-color: #0085BA;
+}
+.tabs-content {
+	padding: 25px;
+	background-color: #ffffff;
+	border-radius: 0px 0px 5px 5px;
+}
+.tabs .tab i {
+	position: relative;
+	bottom: -6px;
+	margin-right: 5px;
+}
+.tabs .tab a {
+	color: #23282d;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+	color: #212121;
+	background-color: #ffffff;
+	border-radius: 5px 5px 0px 0px;
+}
+.tabs .tab a:not(.active) {
+	color: #ffffff;
+	background-color: #0085BA;
+	border-radius: 5px 5px 0px 0px;
+}
+.tabs .indicator {
+	background-color: #0073AA;
+	bottom: -6px;
+	display: none;
+}
+.input-field {
+	margin-top: 0;
+}
+.input-field-cstm {
+	position: relative;
+}
+.input-field-cstm .prefix {
+	position: absolute;
+	width: 3rem;
+	font-size: 2rem;
+	-webkit-transition: color .2s;
+	transition: color .2s;
+}
+.btn, .btn-large, .btn:hover, .btn-large:hover {
+	color: #ffffff;
+	background-color: #0073AA;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+	color: #0073AA;
+}
+.input-field .prefix.active {
+	color: #0073AA;
+}
+.toast {
+	margin-top: 30px;
+	background-color: #323232;
+	color: #fff;
+}
+input[type=range]+.thumb {
+	transform: translateX(3rem) rotate(-45deg);
+}

@@ -1,0 +1,35 @@
+{
+  "short_name": [WPMA_MF_SHORT_NAME],
+  "name": [WPMA_MF_NAME],
+  "icons": [{
+    "src": [WPMA_MF_ICON_128],
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": [WPMA_MF_ICON_144],
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": [WPMA_MF_ICON_152],
+    "sizes": "152x152",
+    "type": "image/png"
+  }, {
+    "src": [WPMA_MF_ICON_192],
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": [WPMA_MF_ICON_256],
+    "sizes": "256x256",
+    "type": "image/png"
+  }, {
+    "src": [WPMA_MF_ICON_512],
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "start_url": [WPMA_MF_START_URL],
+  "scope": [WPMA_MF_SCOPE],
+  "display": [WPMA_MF_DISPLAY],
+  "orientation": [WPMA_MF_ORIENTATION],
+  "background_color": [WPMA_MF_BACKGROUND_COLOR],
+  "theme_color": [WPMA_MF_THEME_COLOR]
+}
